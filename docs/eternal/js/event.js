@@ -1,8 +1,9 @@
 (function() {
   const EVENTS = [
-    { name: "TVT", times: ["02:00", "08:00", "14:00", "20:00"], icon: "⚔️", className: "event-tvt" },
-    { name: "CTF", times: ["04:00", "10:00", "16:00", "22:00"], icon: "🏁", className: "event-ctf" },
-    { name: "DM", times: ["00:00", "06:00", "12:00", "18:00"], icon: "💀", className: "event-dm" }
+    { name: "TVT", times: ["02:00", "10:00", "18:00"], icon: "⚔️", className: "event-tvt" },
+    { name: "CTF", times: ["04:00", "12:00", "20:00"], icon: "🏁", className: "event-ctf" },
+    { name: "DM", times: ["06:00", "14:00", "22:00"], icon: "💀", className: "event-dm" },
+    { name: "MT", times: ["00:00", "08:00", "16:00"], icon: "⚔️", className: "event-mt" }
   ];
   const REGISTRATION_DURATION = 5; 
   let refreshInterval = null; 
