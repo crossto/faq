@@ -160,6 +160,7 @@ icon: material/clock-time-one-outline
 .event-tvt .event-icon { background: #FF5722; }
 .event-ctf .event-icon { background: #4CAF50; }
 .event-dm .event-icon { background: #2196F3; }
+.event-mt .event-icon { background: #FFC822; }
 
 .server-timer {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
